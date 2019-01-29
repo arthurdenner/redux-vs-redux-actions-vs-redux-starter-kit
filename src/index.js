@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { connect } from 'react-redux';
 import store from './store';
-import * as actions from './store/actions';
+import actions from './store/actions';
 import './index.css';
 
 const App = ({ clicks, count, decrement, increment }) => (

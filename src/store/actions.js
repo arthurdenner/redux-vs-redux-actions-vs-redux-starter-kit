@@ -1,11 +1,6 @@
-import { INCREMENT, DECREMENT } from './types';
+import { createActions } from 'redux-actions';
 
-export const increment = payload => ({
-  type: INCREMENT,
-  payload,
-});
-
-export const decrement = payload => ({
-  type: DECREMENT,
-  payload,
+export default createActions({
+  decrement: null,
+  increment: null,
 });
