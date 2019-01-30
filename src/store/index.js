@@ -1,4 +1,4 @@
-import { createStore } from 'redux';
+import { configureStore } from 'redux-starter-kit';
 import reducer from './reducer';
 
-export default createStore(reducer, { count: 0, clicks: 0 });
+export default configureStore({ reducer });

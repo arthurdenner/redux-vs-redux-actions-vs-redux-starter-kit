@@ -1,2 +1,1 @@
-export const INCREMENT = 'INCREMENT';
-export const DECREMENT = 'DECREMENT';
+/* This file is no longer necessary */

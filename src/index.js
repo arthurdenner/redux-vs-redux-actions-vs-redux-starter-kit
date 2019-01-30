@@ -11,8 +11,8 @@ const App = ({ clicks, count, decrement, increment }) => (
     <p>You have changed the count {clicks} times</p>
     <p>{count || 0}</p>
     <div className="App-buttons">
-      <button onClick={increment}>+</button>
-      <button onClick={decrement}>-</button>
+      <button onClick={() => increment()}>+</button>
+      <button onClick={() => decrement()}>-</button>
     </div>
   </main>
 );
